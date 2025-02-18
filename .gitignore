@@ -1,0 +1,19 @@
+# Ignorer les fichiers système inutiles
+AppData/
+Documents/
+Downloads/
+.vscode/
+.gitconfig
+.bash_history
+.bashrc
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Ignorer les dossiers de sauvegarde et autres fichiers temporaires
+.dbus-keyrings/
+.oracle_jre_usage/
+Winamax/
