@@ -39,7 +39,7 @@ git sync  # Sauvegarde et mise à jour GitHub
 
 def update_readme():
     """Met à jour le README.md avec l'état actuel du projet."""
-    with open(README_PATH, "w", encoding="utf-8") as f:
+    with open(README_PATH, "w", encoding="utf-8-sig") as f:
         f.write(get_project_status())
     
     print("✅ README.md mis à jour avec succès.")
