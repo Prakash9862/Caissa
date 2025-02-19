@@ -10,8 +10,7 @@ def get_git_log():
 
 def get_project_status():
     """Génère le contenu mis à jour du README.md."""
-    status = f"""
-# 📌 Projet Caïssa - Suivi en Temps Réel
+    status = f"""# 📌 Projet Caïssa - Suivi en Temps Réel
 
 🛠️ **État actuel du projet :**
 - ✔ Importation et stockage des parties **OK**
@@ -47,7 +46,7 @@ def update_readme():
 
 def commit_and_push():
     """Ajoute, commit et pousse automatiquement le README.md"""
-    subprocess.run(["git", "add", "README.md"])
+    subprocess.run(["git", "add", "README.md"], check=True)
     subprocess.run(["git", "commit", "-m", "🔄 Mise à jour automatique du README.md"], check=True)
     subprocess.run(["git", "push", "origin", "master"], check=True)
 
