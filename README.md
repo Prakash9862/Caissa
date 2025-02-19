@@ -1,4 +1,4 @@
-﻿# 📌 Projet Caïssa - Suivi en Temps Réel
+# 📌 Projet Caïssa - Suivi en Temps Réel
 
 🛠️ **État actuel du projet :**
 - ✔ Importation et stockage des parties **OK**
@@ -7,15 +7,15 @@
 - 🔄 **Interface graphique en développement**
 - 🛠 **Notifications en phase de test**
 
-📅 **Mise à jour automatique :** 2025-02-19 17:14:33
+📅 **Mise à jour automatique :** 2025-02-19 17:14:35
 
 ## 🔄 Derniers commits :
 ```
+* d673958 ðŸ”„ Mise Ã  jour automatique du README.md
 * 2115626 Auto-sync
 * 16c9a64 ðŸ”„ Mise Ã  jour automatique du README.md
 * 02d2c46 ðŸ”„ Mise Ã  jour automatique du README.md
 * f1e7631 Auto-sync
-* ef4a7c4 ðŸ”„ Mise Ã  jour automatique du README.md
 ```
 
 ## 💾 Comment utiliser le projet ?
