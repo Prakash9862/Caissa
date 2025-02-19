@@ -1,3 +1,8 @@
+from load_games import load_pgn_games
+
+# Charger les parties au démarrage
+games = load_pgn_games()
+print(f"📂 {len(games)} parties chargées dans Caïssa !")
 
 from stockfish import Stockfish
 
